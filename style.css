@@ -200,7 +200,7 @@ section.sectie2::before{
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (min-width: 375px){
     .logo{
         width: 80px;
     }
@@ -327,6 +327,13 @@ section.sectie2::before{
     div.social{
         text-align: center;
         margin-top: 2rem;
+    }
+}
+
+@media only screen and (device-width: 414px) 
+and (device-height: 896px) {
+    .logo{
+        width: 80px;
     }
 }
 
